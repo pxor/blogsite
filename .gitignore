@@ -1,0 +1,47 @@
+# .gitignore
+# Project files and directories
+/blog_site/local_settings.py
+/blog_site/static/
+/blog_site/tmp/
+/blog_site/media/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml`
+coverage.xml
+*.cover
+
+# Translations
+*.pot
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# PyBuilder
+target/
